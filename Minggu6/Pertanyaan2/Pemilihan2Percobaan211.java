@@ -30,7 +30,10 @@ public class Pemilihan2Percobaan211 {
                 System.out.println("Segitiga tersebut adalah segitiga lancip");
             }else if ((((sudut1 > 90 && sudut1 < 180) || sudut1 < 90) || ((sudut2 > 90 && sudut2 < 180) || sudut2 < 90) ||((sudut3 > 90 && sudut3 < 180) || sudut3 < 90))){
                 System.out.println("Segitiga tersebut adalah segitiga tumpul");
-            }}
+            }else if ((sudut1 > 0 && sudut1 < 180) && (sudut2 > 0 && sudut2 < 180) && (sudut3 > 0 && sudut3 < 180)){
+                System.out.println("Segitiga tersebut adalah segitiga sembarang");
+            }
+        }
         else {
             System.out.println("Bukan segitiga");
         }
