@@ -1,4 +1,4 @@
-
+package Minggu11.Pertanyaan3;
 
 import java.util.Scanner;
 
@@ -14,8 +14,8 @@ public class Triangle {
                     System.out.print("*");
                     j++;
             }
-            System.out.println();
             i++;
+            System.out.println();
  } 
 sc.close();
     }
