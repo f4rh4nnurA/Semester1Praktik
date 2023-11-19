@@ -14,5 +14,6 @@ public class Nomor2 {
             }
             System.out.println();
         }
+        input.close();
     }
 }
