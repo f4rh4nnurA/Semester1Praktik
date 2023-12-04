@@ -1,9 +1,5 @@
 package percobaan3;
 
-/**
- * Latihan11
- */
-
 public class Latihan11 {
     public static void main (String[] args){
          
